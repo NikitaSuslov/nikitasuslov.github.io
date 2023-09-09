@@ -7,18 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="src/styles/style.css">
     <title>Nikita Suslov</title>
 </head>
 <body>
     <nav>
-        <div class="nav-logo">
+        <div class="nav-logo" id="start">
             <a href="#">НИКИТА СУСЛОВ</a>
         </div>
         <ul class="nav-links">
-            <li class="links"><a href="#">СТАРТ</a></li>
-            <li class="links"><a href="#">ПРОЕКТЫ</a></li>
-            <li class="links"><a href="#">КОНТАКТЫ</a></li>
+            <li class="links"><a href="#start">СТАРТ</a></li>
+            <li class="links"><a href="#projects">ПРОЕКТЫ</a></li>
+            <li class="links"><a href="#contacts">КОНТАКТЫ</a></li>
         </ul>
     </nav>
     <header class="container">
@@ -30,12 +30,12 @@
             <p>Это мой сайт-визитка. Здесь я веду свой блог о веб-разработке. Выкладываю свои проекты. Реализую новые технологии. В моих планах попасть на стажировку в крупную IT компанию. Высшего образования я не имею, поэтому все мои навыки я получил самостоятельно. Активно продолжаю их прокачивать, занимаясь самообразованием.</p>
         </div>
         <div class="image">
-            <img src="img/photo1694111559.png" alt="">
+            <img src="src/img/my-photo.jpg" alt="">
         </div>
     </header>
     <section class="container">
         <h2 class="header">МОИ ПРОЕКТЫ</h2>
-        <div class="projects">
+        <div class="projects" id="projects">
             <div class="project">
                     <div class="project-info">
                         <h4>Weather App</h4>
@@ -44,7 +44,7 @@
                             <a href="https://nikitasuslov.github.io/weather-app/">Перейти на сайт<i class="ri-arrow-right-line"></i></a>
                         </button>
                     </div>
-                    <img src="img/weather-app.PNG" class="project-img">
+                    <img src="src/img/weather-app.jpg" class="project-img">
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
             <div class="logo">
                 <h1>НИКИТА СУСЛОВ</h1>
             </div>
-            <div class="socials">
+            <div class="socials" id = "contacts">
                 <a href="https://github.com/NikitaSuslov">GitHub</a>
                 <a href="mailto:nikitasuslov666@icloud.com">Email</a>
                 <a href="https://t.me/kamihatsu">Telegram</a>
